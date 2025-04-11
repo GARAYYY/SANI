@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - Alevín A</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <script src="/scripts/login.js" defer></script> 
+</head>
+
+<body class="d-flex justify-content-center align-items-center min-vh-100 bg-dark text-white">
+    <div class="card text-white bg-secondary w-100" style="max-width: 60%;">
+        <div class="card-body">
+            <h2 id="bienvenida" class="card-title text-center mb-4">PRINCIPAL</h2>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    if (!window.location.pathname.includes('index.html')) {
+    getToken();
+}
+</script>

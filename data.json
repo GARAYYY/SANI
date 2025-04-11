@@ -1,0 +1,22 @@
+[
+    {
+        "rol": "admin",
+        "usuario": "jongaray",
+        "contrasena": "1234",
+        "nombre": "Juan",
+        "apellidos": "Pérez",
+        "minutos_jugados": 1200,
+        "goles": 8,
+        "valoracion": 7.5
+    },
+    {
+        "rol": "usuario",
+        "usuario": "lucasrojas",
+        "contrasena": "abcd",
+        "nombre": "Lucas",
+        "apellidos": "Rojas",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    }
+]

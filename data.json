@@ -3,18 +3,85 @@
         "rol": "admin",
         "usuario": "jongaray",
         "contrasena": "1234",
-        "nombre": "Juan",
-        "apellidos": "Pérez",
-        "minutos_jugados": 1200,
-        "goles": 8,
-        "valoracion": 7.5
+        "nombre": "Jon",
+        "apellidos": "Garay Cuadrado"
     },
     {
         "rol": "usuario",
-        "usuario": "lucasrojas",
-        "contrasena": "abcd",
-        "nombre": "Lucas",
-        "apellidos": "Rojas",
+        "usuario": "samuel",
+        "contrasena": "1234",
+        "nombre": "Samuel",
+        "apellidos": "Oppong Opoku",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "josue",
+        "contrasena": "1234",
+        "nombre": "Josue",
+        "apellidos": "Sanchez Romero",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "ander",
+        "contrasena": "1234",
+        "nombre": "Ander",
+        "apellidos": "Uribe Herrero",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "jon",
+        "contrasena": "1234",
+        "nombre": "Jon",
+        "apellidos": "San Faustino Chasco",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "ian",
+        "contrasena": "1234",
+        "nombre": "Ian",
+        "apellidos": "Marquez Martin",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "alain",
+        "contrasena": "1234",
+        "nombre": "Alain",
+        "apellidos": "Lopez de Heredia Alonso",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "iker",
+        "contrasena": "1234",
+        "nombre": "Iker",
+        "apellidos": "Sanchez Hermoso",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "hugo",
+        "contrasena": "1234",
+        "nombre": "Hugo",
+        "apellidos": "Rodriguez Fernandez",
         "minutos_jugados": 980,
         "goles": 5,
         "valoracion": 7.9

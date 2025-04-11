@@ -1,0 +1,63 @@
+{
+    "partidos": [
+        {
+            "equipo1": "Marianistas B",
+            "equipo2": "San Ignacio A",
+            "resultado": "2 - 0"
+        },
+        {
+            "equipo1": "San Ignacio A",
+            "equipo2": "Urgatzi A",
+            "resultado": "4 - 3"
+        },
+        {
+            "equipo1": "Salvatierra A",
+            "equipo2": "San Ignacio A",
+            "resultado": "0 - 7"
+        },
+        {
+            "equipo1": "San Ignacio A",
+            "equipo2": "Lakua Arriaga A",
+            "resultado": "1 - 0"
+        },
+        {
+            "equipo1": "Corazonistas A",
+            "equipo2": "San Ignacio A",
+            "resultado": "2-1"
+        },
+        {
+            "equipo1": "San Ignacio A",
+            "equipo2": "Urgatzi B",
+            "resultado": "1 - 0"
+        },
+        {
+            "equipo1": "Arambizkarra A",
+            "equipo2": "San Ignacio A",
+            "resultado": "1 - 6"
+        },
+        {
+            "equipo1": "San Ignacio A",
+            "equipo2": "Iru Bat A",
+            "resultado": "1 - 0"
+        },
+        {
+            "equipo1": "Marianistas A",
+            "equipo2": "San Ignacio A",
+            "resultado": "4 - 0"
+        }
+    ],
+    "jugadores": {
+        "mejor_jugador": {
+            "nombre": "Hugo Rodriguez",
+            "informacion": "Valoración: 9.0"
+        },
+        "jugador_revelacion": {
+            "nombre": "Ander Uribe",
+            "informacion": "Defensa"
+        },
+        "maximo_goleador": {
+            "nombre": "Marc Martinez",
+            "informacion": "Goles: 6"
+        }
+    }
+}

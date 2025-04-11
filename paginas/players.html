@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio - Alevín A</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq0p4fFqf2e2M8B7iL4QAYybkFd9zCHp6eSkks0b+I5u4nJ6p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
     <style>
         body {
-            background-image: url('../images/fondo.jpg');
+            background-image: url('https://garayyy.github.io/SANI/images/fondo.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -71,19 +71,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../paginas/main.html">Inicio</a>
+                        <a class="nav-link" href="https://garayyy.github.io/SANI/paginas/main.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../paginas/historic.html">Partidos</a>
+                        <a class="nav-link" href="https://garayyy.github.io/SANI/paginas/historic.html">Partidos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../paginas/players.html">Jugadores</a>
+                        <a class="nav-link" href="https://garayyy.github.io/SANI/paginas/players.html">Jugadores</a>
                     </li>
                 </ul>
             </div>
             <!-- Imagen de perfil del usuario -->
-            <a href="../paginas/user.html" class="d-flex align-items-center text-white">
-                <img src="../images/usuario.jpg" alt="Perfil" class="rounded-circle me-2 img-fluid"
+            <a href="https://garayyy.github.io/SANI/paginas/user.html" class="d-flex align-items-center text-white">
+                <img src="https://garayyy.github.io/SANI/images/usuario.jpg" alt="Perfil" class="rounded-circle me-2 img-fluid"
                     style="width: 50px; height: 50px;">
             </a>
         </div>
@@ -242,7 +242,7 @@
             const token = sessionStorage.getItem('token');
             if (!token) {
                 alert('No estás autenticado!');
-                window.location.href = '../index.html';  // Redirigir al login si no está autenticado
+                window.location.href = 'https://garayyy.github.io/SANI/paginas/main.html';  // Redirigir al login si no está autenticado
             }
         }
 
@@ -271,91 +271,91 @@
 
                     document.getElementById("jugador1").innerHTML = `
     ${jugador1.nombre} -    
-    ${jugador1.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador1.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador1.dorsal}
 `;
 
                     document.getElementById("jugador2").innerHTML = `
     ${jugador2.nombre} -    
-    ${jugador2.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador2.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador2.dorsal}
 `;
 
                     document.getElementById("jugador3").innerHTML = `
     ${jugador3.nombre} -    
-    ${jugador3.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador3.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador3.dorsal}
 `;
 
                     document.getElementById("jugador4").innerHTML = `
     ${jugador4.nombre} -    
-    ${jugador4.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador4.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador4.dorsal}
 `;
 
                     document.getElementById("jugador5").innerHTML = `
     ${jugador5.nombre} -    
-    ${jugador5.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador5.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador5.dorsal}
 `;
 
                     document.getElementById("jugador6").innerHTML = `
     ${jugador6.nombre} -    
-    ${jugador6.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador6.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador6.dorsal}
 `;
 
                     document.getElementById("jugador7").innerHTML = `
     ${jugador7.nombre} -    
-    ${jugador7.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador7.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador7.dorsal}
 `;
 
                     document.getElementById("jugador8").innerHTML = `
     ${jugador8.nombre} -    
-    ${jugador8.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador8.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador8.dorsal}
 `;
 
                     document.getElementById("jugador9").innerHTML = `
     ${jugador9.nombre} -    
-    ${jugador9.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador9.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador9.dorsal}
 `;
 
                     document.getElementById("jugador10").innerHTML = `
     ${jugador10.nombre} -    
-    ${jugador10.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador10.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador10.dorsal}
 `;
 
                     document.getElementById("jugador11").innerHTML = `
     ${jugador11.nombre} -    
-    ${jugador11.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador11.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador11.dorsal}
 `;
 
                     document.getElementById("jugador12").innerHTML = `
     ${jugador12.nombre} -    
-    ${jugador12.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador12.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador12.dorsal}
 `;
 
                     document.getElementById("jugador13").innerHTML = `
     ${jugador13.nombre} -    
-    ${jugador13.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador13.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador13.dorsal}
 `;
 
                     document.getElementById("jugador14").innerHTML = `
     ${jugador14.nombre} -    
-    ${jugador14.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador14.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador14.dorsal}
 `;
 
                     document.getElementById("jugador15").innerHTML = `
     ${jugador15.nombre} -    
-    ${jugador15.valoracion}<img class="estrella" src="images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
+    ${jugador15.valoracion}<img class="estrella" src="https://garayyy.github.io/SANI/images/estrella.png" alt="estrella" style="width: 26px; height: 26px; margin: 0 5px; padding-bottom: 3px">-
     Nº ${jugador15.dorsal}
 `;
                 })

@@ -8,8 +8,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "samuel",
-        "contrasena": "1234",
+        "usuario": "samuel12",
+        "contrasena": "samuel12",
         "nombre": "Samuel",
         "apellidos": "Oppong Opoku",
         "minutos_jugados": 980,
@@ -18,8 +18,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "josue",
-        "contrasena": "1234",
+        "usuario": "josue9",
+        "contrasena": "josue9",
         "nombre": "Josue",
         "apellidos": "Sanchez Romero",
         "minutos_jugados": 980,
@@ -28,8 +28,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "ander",
-        "contrasena": "1234",
+        "usuario": "ander6",
+        "contrasena": "ander6",
         "nombre": "Ander",
         "apellidos": "Uribe Herrero",
         "minutos_jugados": 980,
@@ -38,8 +38,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "jon",
-        "contrasena": "1234",
+        "usuario": "jon17",
+        "contrasena": "jon17",
         "nombre": "Jon",
         "apellidos": "San Faustino Chasco",
         "minutos_jugados": 980,
@@ -48,8 +48,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "ian",
-        "contrasena": "1234",
+        "usuario": "ian7",
+        "contrasena": "ian7",
         "nombre": "Ian",
         "apellidos": "Marquez Martin",
         "minutos_jugados": 980,
@@ -58,8 +58,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "alain",
-        "contrasena": "1234",
+        "usuario": "alain13",
+        "contrasena": "alain13",
         "nombre": "Alain",
         "apellidos": "Lopez de Heredia Alonso",
         "minutos_jugados": 980,
@@ -68,8 +68,8 @@
     },
     {
         "rol": "usuario",
-        "usuario": "iker",
-        "contrasena": "1234",
+        "usuario": "iker11",
+        "contrasena": "iker11",
         "nombre": "Iker",
         "apellidos": "Sanchez Hermoso",
         "minutos_jugados": 980,
@@ -78,12 +78,94 @@
     },
     {
         "rol": "usuario",
-        "usuario": "hugo",
-        "contrasena": "1234",
+        "usuario": "hugo8",
+        "contrasena": "hugo8",
         "nombre": "Hugo",
         "apellidos": "Rodriguez Fernandez",
         "minutos_jugados": 980,
         "goles": 5,
         "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "alvaro4",
+        "contrasena": "alvaro4",
+        "nombre": "Alvaro",
+        "apellidos": "Cruz Para",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "mikel10",
+        "contrasena": "mikel10",
+        "nombre": "Mikel",
+        "apellidos": "Simon Campos",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "ioritz5",
+        "contrasena": "ioritz5",
+        "nombre": "Ioritz",
+        "apellidos": "Perez Valenzuela",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "marc2",
+        "contrasena": "marc2",
+        "nombre": "Marc",
+        "apellidos": "Martinez Garcia",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "david1",
+        "contrasena": "david1",
+        "nombre": "David",
+        "apellidos": "Gomes Pereira",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "alain3",
+        "contrasena": "alain3",
+        "nombre": "Alain",
+        "apellidos": "Quintana Seco",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "rol": "usuario",
+        "usuario": "joaquin16",
+        "contrasena": "joaquin16",
+        "nombre": "Joaquin",
+        "apellidos": "XXX XXX",
+        "minutos_jugados": 980,
+        "goles": 5,
+        "valoracion": 7.9
+    },
+    {
+        "local1": "San Ignacio Alevin A",
+        "visitante1": "Urgatzi Alevin B",
+        "marcadorLocal1": 2,
+        "marcadorVisitante1": 1
+    },
+    {
+        "local2": "Marianistas Alevin A",
+        "visitante2": "San Ignacio Alevin A",
+        "marcadorLocal2": 4,
+        "marcadorVisitante2": 0
     }
 ]

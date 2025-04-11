@@ -21,6 +21,10 @@
 
 <script>
     if (!window.location.pathname.includes('index.html')) {
-    getToken();
+    const token = sessionStorage.getItem('token');
+    if (!token) {
+        alert('No estás autenticado!');
+        window.location.href = 'index.html';
+    }
 }
 </script>

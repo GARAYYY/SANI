@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Login - Alevín A</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-  <script src="login.js" defer></script> 
 
 </head>
 <body class="bg-dark d-flex justify-content-center align-items-center min-vh-100">
@@ -28,3 +27,30 @@
 </body>
 
 </html>
+
+<script>
+  document.getElementById('loginButton').addEventListener('click', function (event) {
+    event.preventDefault();
+    validarLogin();
+});
+
+function validarLogin() {
+    const usuario = document.getElementById('usuario').value;
+    const contrasena = document.getElementById('contrasena').value;
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            const usuarioValido = data.find(user => user.usuario === usuario && user.contrasena === contrasena);
+            if (usuarioValido) {
+                window.location.href = '/paginas/main.html';
+                const token = Math.random(1000000000000) * 1000000000000;
+                sessionStorage.setItem('token', token)
+            } else {
+                alert('Usuario o contraseña incorrectos');
+            }
+        })
+        .catch(error => {
+            console.error('Error al cargar los datos de usuarios:', error);
+        });
+}
+</script>

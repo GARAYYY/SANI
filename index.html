@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Login - Alevín A</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq0p4fFqf2e2M8B7iL4QAYybkFd9zCHp6eSkks0b+I5u4nJ6p" crossorigin="anonymous">  <style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">  <style>
     body {
-      background-image: url('images/fondo.jpg');
+      background-image: url('https://garayyy.github.io/SANI/images/fondo.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -111,7 +111,7 @@
           const usuarioValido = jugadores.find(user => user.usuario === usuario && user.contrasena === contrasena);
           
           if (usuarioValido) {
-            window.location.href = 'paginas/main.html';
+            window.location.href = 'https://garayyy.github.io/SANI/paginas/main.html';
             const token = Math.floor(Math.random() * 1000000000000);                
             sessionStorage.setItem('token', token)
             sessionStorage.setItem('usuario', JSON.stringify(usuarioValido));

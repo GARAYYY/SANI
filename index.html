@@ -4,8 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Login - Alevín A</title>
-  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
-
+  <script>
+    // Detecta si la página está siendo servida desde GitHub Pages o desde un servidor local
+    const isProduction = window.location.hostname === 'garayyy.github.io';
+    
+    if (isProduction) {
+      // Si está en GitHub Pages, carga Bootstrap desde la URL pública
+      document.write('<link rel="stylesheet" href="https://garayyy.github.io/SANI/bootstrap/css/bootstrap.min.css">');
+    } else {
+      // Si está en el entorno local, carga Bootstrap desde la ruta local
+      document.write('<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">');
+    }
+  </script>
   <style>
     body {
       background-image: url('/images/fondo.jpg');

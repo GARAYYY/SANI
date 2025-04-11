@@ -70,21 +70,16 @@
       box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
 
-    /* Estilo para el footer */
-    .fixed-footer {
+        /* Estilo para el footer */
+        .footer {
       position: fixed;
       bottom: 0;
+      left: 0;
       width: 100%;
-      background-color: #333; /* Color de fondo del footer */
-      color: white; /* Color del texto */
-      padding: 10px 0;
-      text-align: center;
-      z-index: 1000; /* Asegura que esté sobre otros elementos */
-    }
-
-    .sponsor-img {
-      height: 30px; /* Ajusta el tamaño de la imagen */
-      margin-left: 10px;
+      height: 100px; /* Ajusta el alto de la imagen */
+      background-image: url('https://garayyy.github.io/SANI/images/patrocinador.jpg');
+      background-size: cover; /* Asegura que la imagen cubra todo el ancho */
+      background-position: center;
     }
   </style>
 </head>
@@ -108,11 +103,7 @@
       </form>
     </div>
   </div>
-  <footer class="fixed-footer">
-    <div class="container text-center">
-      <p>Patrocinado por: <img src="https://www.bextok.com/images/PuntosBextok/BEX12.jpg" alt="Patrocinador" class="sponsor-img"></p>
-    </div>
-  </footer>
+  <div class="footer"></div>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
